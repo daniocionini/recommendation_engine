@@ -1,6 +1,5 @@
 # ---- human input ----
 cd = 'YOUR_PRODUCT_ID'
-code_choice_now = cd.upper()
 # ----------------------------
 
 
@@ -70,7 +69,7 @@ def get_recommendations(code, cosine_sim=cosine_sim):
 
 # save the recommendation based on product id
 simple_recomm_eng = get_recommendations(code_choice_now))
-
+#print(simple_recomm_eng)
 
 
 
@@ -131,3 +130,4 @@ indices = pd.Series(products.index, index=products['code'])
 
 
 content_recomm_eng = get_recommendations(code_choice_now, cosine_sim2)
+#print(content_recomm_eng)
