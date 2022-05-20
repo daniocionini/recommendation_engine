@@ -1,3 +1,13 @@
-# recommendation_engine
-This is a product recommendation engine developed using machine learning
-The algorithm uses a matric vectorizer concept
+# Read Me
+## Code Concept
+A product recommendation engine for product recommendation based on statistical parameters.
+
+## Requirements
+- Python 3.0+
+- Numpy
+- Pandas
+- Sklearn
+- Ast
+
+## Use
+To use the software, input the .csv and twix the parameters if necessary
